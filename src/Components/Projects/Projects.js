@@ -24,7 +24,7 @@ const Projects = () => {
                     for your business. We have expert designer, developer & musician</p>
                     <div>
                         <button>Github</button>
-                        <button>Live site</button>
+                        <button>Live</button>
                     </div>
                 </div>
             </div>
