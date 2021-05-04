@@ -3,15 +3,19 @@ import './Resume.css'
 import RafiResume from '../../Images/rafisResumev2.pdf'
 const Resume = () => {
     return (
-        <div className="container">
-            <div className="my-profile">
-                <h2 className="resume-title">Md. Abul Hasan Nur Rafi</h2>
-                <h5 className="mb-4">High voltage powered developer</h5>
-                <p className="my-info">Email: <a href="mailto:md.ahn.rafi@gmail.com">md.ahn.rafi@gmail.com</a></p>
-                <p className="my-info">Mobile: +8801619210676</p>
-                <p className="my-info">Portfolio site: <a href="https://agitated-shaw-6a507f.netlify.app/">https://agitated-shaw-6a507f.netlify.app/</a></p>
-                <p className="my-info mb-3">Github: <a href="https://github.com/Rafi-Genon">https://github.com/Rafi-Genon</a></p>
-                <a className="btn btn-primary" href={RafiResume} download="Rafi's Resume">Download Resume</a>
+        <div className="container shadow p-5 rounded mb-5">
+            <div className="my-profile row">
+                <div className="col-lg-6 col-md-6">
+                    <h2 className="resume-title">Md. Abul Hasan Nur Rafi</h2>
+                    <h5 className="mb-4">High voltage powered developer</h5>
+                    <p className="my-info">Email: <a href="mailto:md.ahn.rafi@gmail.com">md.ahn.rafi@gmail.com</a></p>
+                    <p className="my-info">Mobile: +8801619210676</p>
+                    <p className="my-info">Portfolio site: <a href="https://agitated-shaw-6a507f.netlify.app/">https://agitated-shaw-6a507f.netlify.app/</a></p>
+                    <p className="my-info mb-3">Github: <a href="https://github.com/Rafi-Genon">https://github.com/Rafi-Genon</a></p>
+                </div>
+                <div className="col-lg-6 col-md-6  ">
+                    <a className="btn btn-primary" href={RafiResume} download="Rafi's Resume">Download Resume</a>
+                </div>
             </div>
             <u><h5 className="mt-4">MY PROGRAMMING SKILLS</h5></u>
             <ul>
@@ -19,7 +23,7 @@ const Resume = () => {
                 <li>Familiar: Material UI, Firebase, JWT, Mongodb, Nodejs</li>
                 <li>Tools: Chrome, VSCode, Git, Heroku, Firebase, Netlify</li>
             </ul>
-            <u><h5  className="mt-4">My Projects</h5></u>
+            <u><h5 className="mt-4">My Projects</h5></u>
             <ol>
                 <li className="mt-4"><span className="resume-project-title">Business Guru (14-April-2021 to 18-April-2021)</span>
                     <ul>

@@ -11,7 +11,7 @@ const Projects = () => {
         , [])
     return (
         <div>
-            <div className="p-3 m-3 d-flex row">
+            <div className=" d-flex row">
                 {
                     projects.map(project => <ProjectsCard key={project._id} project={project}></ProjectsCard>)
                 }
