@@ -8,6 +8,7 @@ import {
 import Home from './Components/Home/Home';
 import NavbarMain from './Components/NavabarMain/NavbarMain';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
           <Route path="/projects">
             <Projects />
+          </Route>
+
+          <Route path="/contact">
+            <Contact />
           </Route>
 
         </Switch>
