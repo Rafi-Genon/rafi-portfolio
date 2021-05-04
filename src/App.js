@@ -9,6 +9,7 @@ import Home from './Components/Home/Home';
 import NavbarMain from './Components/NavabarMain/NavbarMain';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
 
           <Route path="/contact">
             <Contact />
+          </Route>
+
+          <Route path="/resume">
+            <Resume></Resume>
           </Route>
 
         </Switch>

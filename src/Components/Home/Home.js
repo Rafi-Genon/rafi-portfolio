@@ -1,6 +1,8 @@
 import React from 'react';
 import RafiProfille from '../../Images/rafi-img.jpg'
 import RafiResume from '../../Images/rafisResumev2.pdf'
+import Contact from '../Contact/Contact';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Projects></Projects>
+            <Contact></Contact>
         </div>
     );
 };
