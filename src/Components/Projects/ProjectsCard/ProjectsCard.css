@@ -1,0 +1,29 @@
+.project-card {
+    background-color: #222831;
+    color: #F58634;
+    border-radius: 1em;
+    margin: 2%;
+    padding: 30px;
+}
+
+.project-description {
+    color: #F58634;
+    font-size: large;
+}
+
+.project-card-img {
+    border-radius: 1em;
+    width: 100%;
+}
+
+.project-card-title {
+    color: #FA578E;
+}
+
+.tech {
+    background-color: #e9e9e9;
+    color: black;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+}

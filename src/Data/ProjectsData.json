@@ -3,13 +3,47 @@
         "_id": "1",
         "picture": "https://i.ibb.co/YTYzr7t/Business-Guru.png",
         "name": "Business Guru",
-        "git": "https://github.com/Rafi-Genon/business-guru"
+        "git": "https://github.com/Rafi-Genon/business-guru",
+        "technologys": [
+            "HTML5",
+            "CSS3",
+            "javascript",
+            "jsx",
+            "react",
+            "react-router",
+            "bootstrap",
+            "react-bootstrap",
+            "font-awsome",
+            "react-font-awsome",
+            "Custom API",
+            "Github",
+            "Firebase",
+            "Node",
+            "Mongodb"
+        ]
     },
     {
         "_id": "2",
         "picture": "https://i.ibb.co/Vmss3GR/Super-Cars-Shop.png",
         "name": "Super Cars Shop",
         "live": "https://super-cars-shop.web.app/",
-        "git": "https://github.com/Rafi-Genon/super-cars-shop"
+        "git": "https://github.com/Rafi-Genon/super-cars-shop",
+        "technologys": [
+            "HTML5",
+            "CSS3",
+            "javascript",
+            "jsx",
+            "react",
+            "react-router",
+            "bootstrap",
+            "react-bootstrap",
+            "font-awsome",
+            "react-font-awsome",
+            "Custom API",
+            "Github",
+            "Firebase",
+            "Node",
+            "Mongodb"
+        ]
     }
 ]

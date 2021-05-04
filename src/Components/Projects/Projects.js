@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Carousel } from 'react-bootstrap';
 import projectsData from '../../Data/ProjectsData.json'
 import ProjectsCard from './ProjectsCard/ProjectsCard';
 
@@ -14,7 +13,7 @@ const Projects = () => {
         <div>
             <div className="p-3 m-3 d-flex row">
                 {
-                    projects.map(project => <ProjectsCard project={project}></ProjectsCard>)
+                    projects.map(project => <ProjectsCard key={project._id} project={project}></ProjectsCard>)
                 }
             </div>
         </div>
