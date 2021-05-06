@@ -11,6 +11,7 @@ import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Resume from './Components/Resume/Resume';
 import Blog from './Components/Blog/Blog';
+import WhatIDO from './Components/WhatIDo/WhatIDO';
 
 function App() {
   return (
@@ -35,8 +36,12 @@ function App() {
             <Contact />
           </Route>
 
+          <Route path="/iDo">
+            <WhatIDO></WhatIDO>
+          </Route>
+          
           <Route path="/blog">
-           <Blog></Blog>
+            <Blog></Blog>
           </Route>
 
           <Route path="/resume">

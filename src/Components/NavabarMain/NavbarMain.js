@@ -14,6 +14,7 @@ const NavbarMain = () => {
                     <Link style={{ textDecoration: 'none', fontSize: '18px', color: 'black', fontWeight: 'bold' }} to="/home" className="mx-3 my-4"><span className="nav-content">Home</span></Link><br />
                     <Link style={{ textDecoration: 'none', fontSize: '18px', color: 'black', fontWeight: 'bold' }} to="/projects" className="mx-3 my-4"><span className="nav-content">Projects</span></Link><br />
                     <Link style={{ textDecoration: 'none', fontSize: '18px', color: 'black', fontWeight: 'bold' }} to="/resume" className="mx-3 my-4"><span className="nav-content"> Resume</span></Link><br />
+                    <Link style={{ textDecoration: 'none', fontSize: '18px', color: 'black', fontWeight: 'bold' }} to="/iDo" className="mx-3 my-4"><span className="nav-content">What I Do</span></Link><br />
                     <Link style={{ textDecoration: 'none', fontSize: '18px', color: 'black', fontWeight: 'bold' }} to="/contact" className="mx-3 my-4"><span className="nav-content"> Contact</span></Link><br />
                     <Link style={{ textDecoration: 'none', fontSize: '18px', color: 'black', fontWeight: 'bold' }} to="/blog" className="mx-3 my-4"><span className="nav-content">Blog</span></Link><br />
                     {/* {
