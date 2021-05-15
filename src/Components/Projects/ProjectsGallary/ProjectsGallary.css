@@ -1,0 +1,11 @@
+.projectGallaryItems {
+    background-color: #bb94ff38;
+    margin: 1%;
+    padding: 3%;
+}
+.project-gallary-img{
+    width: 100%;
+    height: 500px;
+    border-radius: 1em;
+}
+/* /style={{ width: '100%', height: "400px", borderRadius:'1em' }} */

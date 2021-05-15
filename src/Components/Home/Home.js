@@ -3,10 +3,12 @@ import RafiProfille from '../../Images/rafi-img.jpg'
 import RafiResume from '../../Images/rafisResumev2.pdf'
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
+import ProjectsGallary from '../Projects/ProjectsGallary/ProjectsGallary';
+import WhatIDO from '../WhatIDo/WhatIDO';
 
 const Home = () => {
     return (
-        <div className="container">
+        <div className="">
             <div className="d-flex justify-content-between">
                 <div >
                     <img style={{ borderRadius: '50%', height: '400px' }} src={RafiProfille} alt="" />
@@ -20,7 +22,9 @@ const Home = () => {
                 </div>
             </div>
             <Projects></Projects>
+            <WhatIDO></WhatIDO>
             <Contact></Contact>
+            <ProjectsGallary></ProjectsGallary>
         </div>
     );
 };
