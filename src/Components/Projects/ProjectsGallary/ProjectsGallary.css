@@ -1,9 +1,16 @@
+.project-section {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.project-galary-title {
+    color: #813AFE;
+}
+
 .projectGallaryItems {
-    /* background-color: #bb94ff38; */
     margin: 1%;
     border-radius: 1em;
     border: 1.5px solid #e2e2e2;
-    /* e2e2e2 */
 }
 
 .project-gallary-img {

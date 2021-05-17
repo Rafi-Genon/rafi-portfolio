@@ -8,9 +8,9 @@ import './ProjectsGallary.css'
 
 const ProjectsGallary = () => {
     return (
-        <div class="container">
+        <div class="container ">
+            <h1 className="text-center project-section">Rafi's <span className="project-galary-title">Projects</span></h1>
             <div className="row justify-content-around">
-
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <div className="projectGallaryItems shadow">
                         <img className="project-gallary-img" src={businessGrur} alt="" />
