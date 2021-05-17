@@ -10,19 +10,9 @@ const ProjectsGallary = () => {
     return (
         <div class="container">
             <div className="row justify-content-around">
+
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <div className="projectGallaryItems" style={{ borderRadius: '1em', }}>
-                        <img className="project-gallary-img" src={bpl} alt="" />
-                        <h3 className="text-center p-4">BPL Team</h3>
-                        <div className="d-flex justify-content-around">
-                            <p>Live</p>
-                            <p>GitHub</p>
-                            <p>Server</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-12 col-md-6 col-lg-4">
-                    <div className="projectGallaryItems" style={{ borderRadius: '1em', }}>
+                    <div className="projectGallaryItems shadow">
                         <img className="project-gallary-img" src={businessGrur} alt="" />
                         <h3 className="text-center p-4">Business Guru</h3>
                         <div className="d-flex justify-content-around">
@@ -33,7 +23,7 @@ const ProjectsGallary = () => {
                     </div>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
-                    <div className="projectGallaryItems" style={{ borderRadius: '1em', }}>
+                    <div className="projectGallaryItems shadow">
                         <img className="project-gallary-img" src={superLeage} alt="" />
                         <h3 className="text-center p-4">Super Teams</h3>
                         <div className="d-flex justify-content-around">
@@ -43,11 +33,22 @@ const ProjectsGallary = () => {
                         </div>
                     </div>
                 </div>
+                <div className="col-sm-12 col-md-6 col-lg-4">
+                    <div className="projectGallaryItems shadow">
+                        <img className="project-gallary-img" src={bpl} alt="" />
+                        <h3 className="text-center p-4">BPL Team</h3>
+                        <div className="d-flex justify-content-around">
+                            <p>Live</p>
+                            <p>GitHub</p>
+                            <p>Server</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-sm-12 col-md-6 col-lg-6">
-                    <div className="projectGallaryItems" style={{ borderRadius: '1em', }}>
-                        <img style={{ width: '100%', height: "300px", borderRadius: '1em' }} src={superCars} alt="" />
+                    <div className="projectGallaryItems shadow">
+                        <img className="project-gallary-img-row2" src={superCars} alt="" />
                         <h3 className="text-center p-4">Super Cars Shop</h3>
                         <div className="d-flex justify-content-around">
                             <p>Live</p>
@@ -56,8 +57,8 @@ const ProjectsGallary = () => {
                     </div>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6">
-                    <div className="projectGallaryItems" style={{ borderRadius: '1em', }}>
-                        <img style={{ width: '100%', height: "300px", borderRadius: '1em' }} src={fastRider} alt="" />
+                    <div className="projectGallaryItems shadow" >
+                        <img className="project-gallary-img-row2" src={fastRider} alt="" />
                         <h3 className="text-center p-4">Fast Rider</h3>
                         <div className="d-flex justify-content-around">
                             <p>Live</p>
