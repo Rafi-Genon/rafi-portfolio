@@ -5,7 +5,7 @@ import './WhatIDo.css'
 
 const WhatIDO = () => {
     return (
-        <div className="bg-light what-i-do-section">
+        <div className="bg-light what-i-do-section mt-5" >
             <h3 className="text-center">What I Do</h3>
             <div className="d-flex justify-content-between what-i-do-container">
 
