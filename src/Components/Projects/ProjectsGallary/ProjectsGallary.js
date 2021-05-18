@@ -16,8 +16,8 @@ const ProjectsGallary = () => {
                         <img className="project-gallary-img" src={businessGrur} alt="" />
                         <h3 className="text-center p-4">Business Guru</h3>
                         <div className="d-flex justify-content-around">
-                            <p>Live</p>
-                            <p>GitHub</p>
+                            <a href="https://business-guru-11f99.web.app/" target="_blank"><p>Live</p></a>
+                            <a href="https://github.com/Rafi-Genon/business-guru" target="_blank"> <p>GitHub</p></a>
                             <p>Server</p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const ProjectsGallary = () => {
                         <img className="project-gallary-img" src={superLeage} alt="" />
                         <h3 className="text-center p-4">Super Teams</h3>
                         <div className="d-flex justify-content-around">
-                            <p>Live</p>
+                            <a href="https://nervous-montalcini-7e7ce7.netlify.app/" target="_blank"><p>Live</p></a>
                             <p>GitHub</p>
                             <p>Server</p>
                         </div>
@@ -38,7 +38,7 @@ const ProjectsGallary = () => {
                         <img className="project-gallary-img" src={bpl} alt="" />
                         <h3 className="text-center p-4">BPL Team</h3>
                         <div className="d-flex justify-content-around">
-                            <p>Live</p>
+                            <a href="https://elastic-meninsky-de159e.netlify.app/" target="_blank"><p>Live</p></a>
                             <p>GitHub</p>
                             <p>Server</p>
                         </div>
@@ -51,8 +51,8 @@ const ProjectsGallary = () => {
                         <img className="project-gallary-img-row2" src={superCars} alt="" />
                         <h3 className="text-center p-4">Super Cars Shop</h3>
                         <div className="d-flex justify-content-around">
-                            <p>Live</p>
-                            <p>Server</p>
+                            <a href=" https://super-cars-shop.web.app/" target="_blank"><p>Live</p></a>
+                            <a href="https://github.com/Rafi-Genon/super-cars-shop" target="_blank"><p>Github</p></a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const ProjectsGallary = () => {
                         <img className="project-gallary-img-row2" src={fastRider} alt="" />
                         <h3 className="text-center p-4">Fast Rider</h3>
                         <div className="d-flex justify-content-around">
-                            <p>Live</p>
+                            <a href="https://fast-rider-d1a77.web.app/" target="_blank"><p>Live</p></a>
                             <p>GitHub</p>
                             <p>Server</p>
                         </div>

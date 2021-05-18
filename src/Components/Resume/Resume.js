@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resume.css'
-import RafiResume from '../../Images/rafisResumev2.pdf'
+import RafisResume from '../../Images/rafiResume v3.pdf'
 const Resume = () => {
     return (
         <div className="container shadow p-5 rounded mb-5">
@@ -14,7 +14,7 @@ const Resume = () => {
                     <p className="my-info mb-3">Github: <a href="https://github.com/Rafi-Genon">https://github.com/Rafi-Genon</a></p>
                 </div>
                 <div className="col-lg-6 col-md-6  ">
-                    <a className="btn btn-primary" href={RafiResume} download="Rafi's Resume">Download Resume</a>
+                    <a className="btn btn-primary" href={RafisResume} download="Rafi's Resume">Download Resume</a>
                 </div>
             </div>
             <u><h5 className="mt-4">MY PROGRAMMING SKILLS</h5></u>
