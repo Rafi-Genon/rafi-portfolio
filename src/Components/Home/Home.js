@@ -10,15 +10,17 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
     return (
         <div className="">
-            <div className="d-flex justify-content-between container">
-                <div >
-                    <img style={{ borderRadius: '50%', height: '400px' }} src={RafiProfille} alt="" />
-                </div>
-                <div className="d-flex align-items-center">
-                    <div className="d-flex flex-column align-items-center">
-                        <h1>Oh Hey, this is <span style={{ color: '#813AFE' }}>Rafi</span></h1>
-                        <p style={{ fontWeight: '800px', fontSize: '20px', }} className="text-center p-5">I am web developer. I develop website with HTML, CSS, Bootstrap,React. Mainly my power is React</p>
-                        <a className="btn btn-outline-primary" href={RafiResume} download="Rafi's Resume"><FontAwesomeIcon icon={faDownload} /> Download Resume</a>
+            <div className="container">
+                <div className="row">
+                    <div className="d-flex justify-content-center col-lg-6 col-md-12 col-sm-12 mt-5">
+                        <img style={{ borderRadius: '50%', height: '400px' }} src={RafiProfille} alt="" />
+                    </div>
+                    <div className="d-flex align-items-center col-lg-6 col-md-12 col-sm-12 mt-5">
+                        <div className="d-flex flex-column align-items-center">
+                            <h1>Oh Hey, this is <span style={{ color: '#813AFE' }}>Rafi</span></h1>
+                            <p style={{ fontWeight: '800px', fontSize: '20px', }} className="text-center p-5">I am web developer. I develop website with HTML, CSS, Bootstrap,React. Mainly my power is React</p>
+                            <a className="btn btn-outline-primary" href={RafiResume} download="Rafi's Resume"><FontAwesomeIcon icon={faDownload} /> Download Resume</a>
+                        </div>
                     </div>
                 </div>
             </div>

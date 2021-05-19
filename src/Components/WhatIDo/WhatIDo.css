@@ -3,7 +3,7 @@
 }
 
 .what-i-do-items {
-    width: 30%;
+    /* width: 30%; */
     display: flex;
     flex-direction: column;
     align-items: center;
