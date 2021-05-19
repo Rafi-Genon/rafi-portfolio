@@ -17,8 +17,8 @@ const ProjectsGallary = () => {
                         <h3 className="text-center p-4">Business Guru</h3>
                         <div className="d-flex justify-content-around">
                             <a href="https://business-guru-11f99.web.app/" target="_blank"><p>Live</p></a>
-                            <a href="https://github.com/Rafi-Genon/business-guru" target="_blank"> <p>GitHub</p></a>
-                            <p>Server</p>
+                            <a href="https://github.com/Rafi-Genon/business-guru" target="_blank"> <p>Client Code</p></a>
+                            <a href="https://github.com/Rafi-Genon/business-guru-server" target="_blank"><p>Server Code</p></a>
                         </div>
                     </div>
                 </div>
@@ -28,8 +28,7 @@ const ProjectsGallary = () => {
                         <h3 className="text-center p-4">Super Teams</h3>
                         <div className="d-flex justify-content-around">
                             <a href="https://nervous-montalcini-7e7ce7.netlify.app/" target="_blank"><p>Live</p></a>
-                            <p>GitHub</p>
-                            <p>Server</p>
+                            <a href="https://github.com/Rafi-Genon/super-teams" target="_blank"><p>GitHub</p></a>
                         </div>
                     </div>
                 </div>
@@ -39,8 +38,7 @@ const ProjectsGallary = () => {
                         <h3 className="text-center p-4">BPL Team</h3>
                         <div className="d-flex justify-content-around">
                             <a href="https://elastic-meninsky-de159e.netlify.app/" target="_blank"><p>Live</p></a>
-                            <p>GitHub</p>
-                            <p>Server</p>
+                            <a href="https://github.com/Rafi-Genon/bpl-team" target="_blank"> <p>GitHub</p></a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +50,8 @@ const ProjectsGallary = () => {
                         <h3 className="text-center p-4">Super Cars Shop</h3>
                         <div className="d-flex justify-content-around">
                             <a href=" https://super-cars-shop.web.app/" target="_blank"><p>Live</p></a>
-                            <a href="https://github.com/Rafi-Genon/super-cars-shop" target="_blank"><p>Github</p></a>
+                            <a href="https://github.com/Rafi-Genon/super-cars-shop" target="_blank"><p>Client Code</p></a>
+                            <a href="https://github.com/Rafi-Genon/super-cars-shop-server" target="_blank"><p>Server Code</p></a>
                         </div>
                     </div>
                 </div>
@@ -62,8 +61,7 @@ const ProjectsGallary = () => {
                         <h3 className="text-center p-4">Fast Rider</h3>
                         <div className="d-flex justify-content-around">
                             <a href="https://fast-rider-d1a77.web.app/" target="_blank"><p>Live</p></a>
-                            <p>GitHub</p>
-                            <p>Server</p>
+                            <a href="https://github.com/Rafi-Genon/fast-rider" target="_blank"><p>GitHub</p></a>
                         </div>
                     </div>
                 </div>
