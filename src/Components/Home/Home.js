@@ -1,7 +1,6 @@
 import React from 'react';
 import RafiProfille from '../../Images/rafi-img.jpg'
-// import RafiResume from '../../Images/rafisResumev2.pdf'
-import RafisResume from '../../Images/rafiResume v3.pdf'
+import RafiResume from '../../Images/RafiResume.pdf'
 import Footer from '../Footer/Footer';
 import Projects from '../Projects/Projects';
 import ProjectsGallary from '../Projects/ProjectsGallary/ProjectsGallary';
@@ -19,7 +18,7 @@ const Home = () => {
                     <div className="d-flex flex-column align-items-center">
                         <h1>Oh Hey, this is <span style={{ color: '#813AFE' }}>Rafi</span></h1>
                         <p style={{ fontWeight: '800px', fontSize: '20px', }} className="text-center p-5">I am web developer. I develop website with HTML, CSS, Bootstrap,React. Mainly my power is React</p>
-                        <a className="btn btn-outline-primary" href={RafisResume} download="Rafi's Resume"><FontAwesomeIcon icon={faDownload} /> Download Resume</a>
+                        <a className="btn btn-outline-primary" href={RafiResume} download="Rafi's Resume"><FontAwesomeIcon icon={faDownload} /> Download Resume</a>
                     </div>
                 </div>
             </div>

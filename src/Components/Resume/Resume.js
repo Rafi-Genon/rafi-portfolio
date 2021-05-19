@@ -1,6 +1,6 @@
 import React from 'react';
 import './Resume.css'
-import RafisResume from '../../Images/rafiResume v3.pdf'
+import RafisResume from '../../Images/RafiResume.pdf'
 const Resume = () => {
     return (
         <div className="container shadow p-5 rounded mb-5">
